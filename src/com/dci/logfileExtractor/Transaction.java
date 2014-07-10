@@ -6,7 +6,8 @@ public class Transaction {
 	private String timeStamp;
 	private String methodURL;
 	private String numberII;
-	private String browser;
+	private String numberIII;
+	private String URL;
 	private String configureInfo;
 
 	public String getIpAddress() {
@@ -48,13 +49,21 @@ public class Transaction {
 	public void setNumberII(String numberII) {
 		this.numberII = numberII;
 	}
-
-	public String getBrowser() {
-		return browser;
+	
+	public String getNumberIII() {
+		return numberIII;
 	}
 
-	public void setBrowser(String browser) {
-		this.browser = browser;
+	public void setNumberIII(String numberIII) {
+		this.numberIII = numberIII;
+	}
+
+	public String getURL() {
+		return URL;
+	}
+
+	public void setURL(String URL) {
+		this.URL = URL;
 	}
 
 	public String getConfigureInfo() {
